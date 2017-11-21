@@ -2,38 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Twitter</title>
+    <title>Trello</title>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Zilla+Slab+Highlight" rel="stylesheet">
+     <link rel="stylesheet" href="assets/icons/style.css">
      <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <!---CREANDO ENCABEZADO Trello-->
     <header>
-      <nav>
-        <div class="tablero">
-        </div>
-        <div class="search">
+       <ul>
+        <li><i class="icon-view_quilt"></i> Tableros</li>
+        <!--Creando caja de busqueda -->
+        <li class="form">
+          <i class="icon-search" aria-hidden="true"></i><input type="text" placeholder="">
+        </li>
+        <li class="title"><i class="icon-local_florist"></i> Trello</li>
+        <ul class="icons3">
+          <li class="icons-right"><i class="icon-plus"></i></li>
+          <li class="icons right"><i class="icon-pets"></i></li>
+          <li class="icons-right"><i class="icon-bell"></i></li>
+        </ul>
 
-        </div>
-        <div class="title-trlello">
-
-        </div>
-        <div class="nav-icons">
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </nav>
     </header>
     <!---creando div contenedor de todas las secciones de la página-->
     <div id="container">
       <div class="sub-title">
-        <h2>Tablero-Reto de código</h2>
+        <h2 class="icon-pets"> Tablero - Reto de código</h2>
       </div>
-      <h2></h2>
-      <div class="post" id="text-box">
-
+      <div class="post" id="assignment">
+       <form>
+         <input id="add-text" type="text"  value="añadir un texto">
+       </form>
       </div>
     </div>
 
